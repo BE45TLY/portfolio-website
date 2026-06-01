@@ -6,6 +6,7 @@ import About from './pages/About';
 import Timeline from './pages/Timeline';
 import Achievements from './pages/Achievements';
 import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import Contact from './pages/Contact';
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/achievements" element={<Achievements />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:id" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
