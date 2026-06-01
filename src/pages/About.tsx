@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImg from '../assets/profile.jpg';
 
 const About: React.FC = () => {
     return (
@@ -21,7 +22,7 @@ const About: React.FC = () => {
                             <img
                                 alt="Portrait"
                                 className="w-full h-full object-cover transition-all duration-500"
-                                src="/src/assets/profile.jpg"
+                                src={profileImg}
                             />
                         </div>
                     </div>

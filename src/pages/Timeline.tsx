@@ -1,11 +1,13 @@
 import React from 'react';
+import schoolImg from '../assets/school.jpg';
+import nsuImg from '../assets/nsu.jpg';
 
 const Timeline: React.FC = () => {
     const events = [
         { year: '2008', title: 'Schooling Life', sub: 'South Breeze School', desc: 'Countless memories, people who stuck with me and are still a massive part of my life now', side: 'left', color: 'purple' },
-        { year: '2021', title: 'IGCSE', sub: 'South Breeze School', desc: 'Passed my IGCSEs with flying colors. Mix of Science and Business subjects.', side: 'right', color: 'blue', image: '/src/assets/school.jpg' },
+        { year: '2021', title: 'IGCSE', sub: 'South Breeze School', desc: 'Passed my IGCSEs with flying colors. Mix of Science and Business subjects.', side: 'right', color: 'blue', image: schoolImg },
         { year: '2023', title: 'International A Levels', sub: 'South Breze School', desc: 'Secured As in all 3 of my subjects: Maths, Economics and Accounting', side: 'left', color: 'blue' },
-        { year: '2023', title: 'BBA in Finance', sub: 'North South University', desc: 'Currently I study here, enjoying life while looking for opportunities to enhance every aspect of it.', side: 'right', color: 'cyan', image: '/src/assets/nsu.jpg' },
+        { year: '2023', title: 'BBA in Finance', sub: 'North South University', desc: 'Currently I study here, enjoying life while looking for opportunities to enhance every aspect of it.', side: 'right', color: 'cyan', image: nsuImg },
     ];
 
     return (
